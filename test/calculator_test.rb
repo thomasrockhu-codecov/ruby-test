@@ -7,7 +7,7 @@ class TestCalculator < Minitest::Test
     assert_equal(3.0, Calculator.add(1, 2))
   end
 
-  def test_add
+  def test_subtract
     assert_equal(-1.0, Calculator.subtract(1, 2))
   end
 end
